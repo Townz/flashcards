@@ -5,3 +5,6 @@ services:
         build: ./flashcards
         ports:
             - "5001:5001"
+
+        volumes:
+            - ./flashcards:/app
